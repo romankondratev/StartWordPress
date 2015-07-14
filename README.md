@@ -6,6 +6,7 @@
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 ```
+
 ## Настройка
 ### wp-config.php
 ```
@@ -20,6 +21,8 @@ define( 'WP_POST_REVISIONS', 10 );
  */
 define( 'FS_METHOD', 'direct' );
 ```
+
+## Плагины
 ### wp-content/plugins
 Устанавливаем необходимые плагины.
 
