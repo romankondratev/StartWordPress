@@ -23,12 +23,14 @@ define( 'FS_METHOD', 'direct' );
 ### wp-content/plugins
 Устанавливаем необходимые плагины.
 
+
 #### Advanced Custom Fields PRO (платный)
 https://wordpress.org/plugins/advanced-custom-fields/
 
 PRO-версию необходимо скачать с официального сайта:
 
 http://www.advancedcustomfields.com/my-account/
+
 
 #### Cyr to Lat enhanced
 https://wordpress.org/plugins/cyr3lat/
