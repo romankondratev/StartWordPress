@@ -13,4 +13,10 @@ wp-config.php
  * Ограничиваем количество редакций к постам.
  */
 define('WP_POST_REVISIONS', 10 );
+
+
+/**
+ * Обновление без FTP.
+ */
+define('FS_METHOD', 'direct');
 ```
