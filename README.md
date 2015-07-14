@@ -6,6 +6,11 @@
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 ```
+Меняем права на проект:
+```Shell
+sudo chown -R www:staff .
+sudo chmod -R 774 .
+```
 
 ## Настройка
 ### wp-config.php
