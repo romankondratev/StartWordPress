@@ -24,5 +24,9 @@ define( 'FS_METHOD', 'direct' );
 Устанавливаем необходимые плагины:
 - advanced-custom-fields-pro
 - cyr3lat
+Меняем
+```$title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);``` 
+на 
+```$title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);```
 - prime-strategy-bread-crumb
 - simple-page-ordering
