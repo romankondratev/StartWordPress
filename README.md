@@ -6,3 +6,11 @@
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 ```
+## Настройка
+wp-config.php
+```
+/**
+ * Ограничиваем количество редакций к постам.
+ */
+define('WP_POST_REVISIONS', 10 );
+```
