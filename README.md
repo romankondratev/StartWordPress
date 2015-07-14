@@ -42,5 +42,8 @@ $title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);
 $title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
 ```
 
-- prime-strategy-bread-crumb
-- simple-page-ordering
+- [ ] a bigger project
+  - [ ] first subtask #1234
+  - [ ] follow up subtask #4321
+  - [ ] final subtask cc @mention
+- [ ] a separate task
