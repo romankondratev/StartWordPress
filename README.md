@@ -7,7 +7,7 @@ wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 ```
 ## Настройка
-wp-config.php
+### wp-config.php
 ```
 /**
  * Ограничиваем количество редакций.
