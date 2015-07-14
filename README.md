@@ -1,4 +1,5 @@
 # Wordpress
+Данное руководство отображает основые шаги по на развертыванию локального проекта на Wordpress.
 ## Установка
 ```Shell
 wget http://wordpress.org/latest.tar.gz
