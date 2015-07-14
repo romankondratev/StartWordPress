@@ -5,3 +5,8 @@
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 ```
+### Таблица
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
