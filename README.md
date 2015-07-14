@@ -21,12 +21,22 @@ define( 'WP_POST_REVISIONS', 10 );
 define( 'FS_METHOD', 'direct' );
 ```
 ### wp-content/plugins
-Устанавливаем необходимые плагины:
-- advanced-custom-fields-pro
-- cyr3lat
-Меняем
+Устанавливаем необходимые плагины.
+
+#### Advanced Custom Fields PRO (платный)
+https://wordpress.org/plugins/advanced-custom-fields/
+
+PRO-версию необходимо скачать с официального сайта:
+http://www.advancedcustomfields.com/my-account/
+
+#### Cyr to Lat enhanced
+https://wordpress.org/plugins/cyr3lat/
+
+Для загрузки изображений "@2x" необходимо поменять в файле
+wp-content/plugins/cyr3lat/cyr-to-lat.php
 ```$title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);``` 
-на 
+на
 ```$title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);```
+
 - prime-strategy-bread-crumb
 - simple-page-ordering
