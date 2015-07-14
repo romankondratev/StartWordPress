@@ -20,3 +20,9 @@ define( 'WP_POST_REVISIONS', 10 );
  */
 define( 'FS_METHOD', 'direct' );
 ```
+### wp-content/plugins
+Устанавливаем необходимые плагины:
+- advanced-custom-fields-pro
+- cyr3lat
+- prime-strategy-bread-crumb
+- simple-page-ordering
