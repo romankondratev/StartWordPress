@@ -33,9 +33,7 @@ http://www.advancedcustomfields.com/my-account/
 #### Cyr to Lat enhanced
 https://wordpress.org/plugins/cyr3lat/
 
-Для загрузки изображений "@2x" необходимо поменять в файле
-
-wp-content/plugins/cyr3lat/cyr-to-lat.php
+Для загрузки изображений "@2x" вносим изменения в файл ```wp-content/plugins/cyr3lat/cyr-to-lat.php```
 ```
 $title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);
 ``` 
