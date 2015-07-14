@@ -10,13 +10,13 @@ tar -xzvf latest.tar.gz
 wp-config.php
 ```
 /**
- * Ограничиваем количество редакций к постам.
+ * Ограничиваем количество редакций.
  */
-define('WP_POST_REVISIONS', 10 );
+define( 'WP_POST_REVISIONS', 10 );
 
 
 /**
  * Обновление без FTP.
  */
-define('FS_METHOD', 'direct');
+define( 'FS_METHOD', 'direct' );
 ```
