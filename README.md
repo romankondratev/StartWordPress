@@ -43,7 +43,7 @@ $title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
 ```
 
 - [ ] a bigger project
-  - [ ] first subtask #1234
-  - [ ] follow up subtask #4321
+  - [x] first subtask #1234
+  - [x] follow up subtask #4321
   - [ ] final subtask cc @mention
 - [ ] a separate task
