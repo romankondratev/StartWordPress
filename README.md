@@ -57,7 +57,7 @@ $title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
 #### Custom Upload Dir
 https://wordpress.org/plugins/custom-upload-dir/
 
-В настройках `Build a path template:` указываем `/%post_id%/`
+В настройках `Build a path template:` указываем `/%post_type%/%post_id%/%file_type%`
 
 
 #### Prime Strategy Bread Crumb
