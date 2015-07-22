@@ -2,11 +2,22 @@
 Данное руководство отображает основые шаги по на развертыванию локального проекта на Wordpress.
 
 ## Установка
-Необходимо скачать и распоковать последнюю версию https://ru.wordpress.org/latest-ru_RU.zip или установить через консоль.
+Необходимо скачать и распоковать последнюю версию WordPress.
+Zip:
+https://ru.wordpress.org/latest-ru_RU.zip
+
+Linux:
 ```Shell
 wget https://ru.wordpress.org/latest-ru_RU.zip
-unzip latest-ru_RU.zip
 ```
+
+Mac OSX:
+``
+curl -O https://ru.wordpress.org/latest-ru_RU.zip
+unzip latest-ru_RU.zip
+``
+
+
 Меняем права на проект:
 ```Shell
 sudo chown -R www:staff .
