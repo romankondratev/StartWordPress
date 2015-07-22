@@ -1,27 +1,30 @@
 # Wordpress
-Данное руководство отображает основые шаги по развертыванию локального проекта на WordPress.
+Данное руководство отображает основые шаги по развертыванию проекта.
 
 ## Установка
-Необходимо скачать и распоковать последнюю версию WordPress на тестовый сервер.
 
-### Zip:
+### Сохраняем
+
+#### Zip:
 https://ru.wordpress.org/latest-ru_RU.zip
 
-### Linux:
+#### Linux:
 ```
 wget https://ru.wordpress.org/latest-ru_RU.zip
-unzip latest-ru_RU.zip
 ```
 
-### Mac OSX:
+#### Mac OSX:
 ```
 curl -O https://ru.wordpress.org/latest-ru_RU.zip
+```
+
+### Распаковываем
+```
 unzip latest-ru_RU.zip
 ```
 
-
-Меняем права на проект:
-```Shell
+### Меняем права на проект:
+```
 sudo chown -R www:staff .
 sudo chmod -R 774 .
 ```
