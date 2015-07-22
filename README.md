@@ -6,7 +6,7 @@
 ### Сохраняем
 
 __Zip-архив__
-```
+```HTML
 https://ru.wordpress.org/latest-ru_RU.zip
 ```
 
