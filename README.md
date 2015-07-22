@@ -5,15 +5,15 @@
 
 ### Сохраняем
 
-#### Zip:
+__Zip-архив__
 https://ru.wordpress.org/latest-ru_RU.zip
 
-#### Linux:
+__Linux__
 ```
 wget https://ru.wordpress.org/latest-ru_RU.zip
 ```
 
-#### Mac OSX:
+__Mac OSX__
 ```
 curl -O https://ru.wordpress.org/latest-ru_RU.zip
 ```
