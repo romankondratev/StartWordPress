@@ -6,7 +6,9 @@
 ### Сохраняем
 
 __Zip-архив__
+```
 https://ru.wordpress.org/latest-ru_RU.zip
+```
 
 __Linux__
 ```
