@@ -2,10 +2,10 @@
 Данное руководство отображает основые шаги по на развертыванию локального проекта на Wordpress.
 
 ## Установка
-Архив можно скачать с http://wordpress.org/, либо установить через консоль.
+Необходимо скачать и распоковать последнюю версию https://ru.wordpress.org/latest-ru_RU.zip или установить через консоль.
 ```Shell
-wget http://wordpress.org/latest.tar.gz
-tar -xzvf latest.tar.gz
+wget https://ru.wordpress.org/latest-ru_RU.zip
+unzip latest-ru_RU.zip
 ```
 Меняем права на проект:
 ```Shell
