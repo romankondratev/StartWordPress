@@ -1,5 +1,6 @@
 # Wordpress
 Данное руководство отображает основые шаги по на развертыванию локального проекта на Wordpress.
+
 ## Установка
 Архив можно скачать с http://wordpress.org/, либо установить через консоль.
 ```Shell
@@ -14,7 +15,7 @@ sudo chmod -R 774 .
 
 ## Настройка
 ### wp-config.php
-```
+```PHP
 /**
  * Ограничиваем количество редакций.
  */
@@ -52,4 +53,20 @@ $title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);
 $title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
 ```
 
-TODO: …
+
+#### Custom Upload Dir
+https://wordpress.org/plugins/custom-upload-dir/
+
+В настройках `Build a path template:` указываем `/%post_id%/`
+
+
+#### Prime Strategy Bread Crumb
+https://wordpress.org/plugins/prime-strategy-bread-crumb/
+
+
+#### Scripts-To-Footer
+https://wordpress.org/plugins/scripts-to-footerphp/
+
+
+#### Simple Page Ordering
+https://wordpress.org/plugins/simple-page-ordering/
