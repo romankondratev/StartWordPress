@@ -6,7 +6,7 @@
 ### Сохраняем
 
 __Zip-архив__
-```HTML
+```
 https://ru.wordpress.org/latest-ru_RU.zip
 ```
 
@@ -25,14 +25,13 @@ curl -O https://ru.wordpress.org/latest-ru_RU.zip
 unzip latest-ru_RU.zip
 ```
 
-### Меняем права на проект:
+### Меняем права на проект
 ```
 sudo chown -R www:staff .
 sudo chmod -R 774 .
 ```
 
-## Настройка
-### wp-config.php
+## wp-config.php
 ```PHP
 /**
  * Ограничиваем количество редакций.
@@ -47,11 +46,10 @@ define( 'FS_METHOD', 'direct' );
 ```
 
 ## Плагины
-### wp-content/plugins
 Устанавливаем необходимые плагины.
 
 
-#### Advanced Custom Fields PRO (платный)
+### Advanced Custom Fields PRO (платный)
 https://wordpress.org/plugins/advanced-custom-fields/
 
 PRO-версию необходимо скачать с официального сайта:
@@ -59,32 +57,23 @@ PRO-версию необходимо скачать с официального
 http://www.advancedcustomfields.com/my-account/
 
 
-#### Cyr to Lat enhanced
+### Cyr to Lat enhanced
 https://wordpress.org/plugins/cyr3lat/
 
-Для загрузки изображений "@2x" вносим изменения в файл `wp-content/plugins/cyr3lat/cyr-to-lat.php`
-```
-$title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);
-``` 
-на
-```
-$title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
-```
 
-
-#### Custom Upload Dir
+### Custom Upload Dir
 https://wordpress.org/plugins/custom-upload-dir/
 
 В настройках `Build a path template:` указываем `/%post_type%/%post_id%/%file_type%`
 
 
-#### Prime Strategy Bread Crumb
+### Prime Strategy Bread Crumb
 https://wordpress.org/plugins/prime-strategy-bread-crumb/
 
 
-#### Scripts-To-Footer
+### Scripts-To-Footer
 https://wordpress.org/plugins/scripts-to-footerphp/
 
 
-#### Simple Page Ordering
+### Simple Page Ordering
 https://wordpress.org/plugins/simple-page-ordering/
