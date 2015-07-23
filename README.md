@@ -30,8 +30,8 @@ unzip latest-ru_RU.zip
 sudo chown -R www:staff .
 sudo chmod -R 774 .
 ```
-
-## wp-config.php
+## Настраиваем конфиг
+`/wp-config.php`
 ```PHP
 /**
  * Ограничиваем количество редакций.
