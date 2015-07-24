@@ -20,9 +20,20 @@ __Mac OSX__
 curl -O https://ru.wordpress.org/latest-ru_RU.zip
 ```
 
-### Распаковываем
+### Распаковываем архив
 ```
 unzip latest-ru_RU.zip
+```
+
+### Удаляем архив
+```
+rm latest-ru_RU.zip
+```
+
+### Переносим CMS в рабочую директорию
+```
+mv wordpress/{*,.*} .
+rm wordpress
 ```
 
 ### Меняем права на проект
