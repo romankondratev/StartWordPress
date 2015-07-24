@@ -33,7 +33,7 @@ rm latest-ru_RU.zip
 ### Переносим CMS в рабочую директорию
 ```
 mv wordpress/{*,.*} .
-rm wordpress
+rm -fr wordpress
 ```
 
 ### Меняем права на проект
