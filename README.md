@@ -38,8 +38,9 @@ rm -fr wordpress
 
 ### Меняем права на проект
 ```
-sudo chown -R www:staff .
-sudo chmod -R 774 .
+chown -R www:staff .
+find . -type f -exec chmod 664 {} \;
+find . -type d -exec chmod 775 {} \;
 ```
 ## /wp-config.php
 ```PHP
