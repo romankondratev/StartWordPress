@@ -70,6 +70,7 @@ http://www.advancedcustomfields.com/my-account/
 
 ### Cyr to Lat enhanced
 https://wordpress.org/plugins/cyr3lat/
+
 Дорабатываем плагин (75 строка)
 ```
 $title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
