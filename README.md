@@ -76,6 +76,8 @@ https://wordpress.org/plugins/cyr3lat/
 $title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
 $title = preg_replace('/-\./', '.', $title);
 $title = preg_replace('/\.\./', '.', $title);
+…
+return mb_strtolower( $title, 'UTF-8' );
 ```
 
 
