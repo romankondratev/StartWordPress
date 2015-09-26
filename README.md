@@ -39,7 +39,7 @@ rm -fr wordpress
 ### Меняем права на проект
 ```
 sudo chown -R www:staff .
-sudo find . -type f -exec chmod 664 {} \;
+sudo find . -type f -exec chmod 774 {} \;
 sudo find . -type d -exec chmod 775 {} \;
 ```
 ## /wp-config.php
@@ -70,16 +70,6 @@ http://www.advancedcustomfields.com/my-account/
 
 ### Cyr to Lat enhanced
 https://wordpress.org/plugins/cyr3lat/
-
-Дорабатываем плагин (75 строка)
-```
-$title = preg_replace("/[^A-Za-z0-9'_\-\.@]/", '-', $title);
-$title = preg_replace('/-\./', '.', $title);
-$title = preg_replace('/\.\./', '.', $title);
-…
-return mb_strtolower( $title, 'UTF-8' );
-```
-
 
 ### Custom Upload Dir
 https://wordpress.org/plugins/custom-upload-dir/
