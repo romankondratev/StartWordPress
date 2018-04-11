@@ -82,7 +82,3 @@ https://wordpress.org/plugins/prime-strategy-bread-crumb/
 
 ### Scripts-To-Footer
 https://wordpress.org/plugins/scripts-to-footerphp/
-
-
-### Simple Page Ordering
-https://wordpress.org/plugins/simple-page-ordering/
